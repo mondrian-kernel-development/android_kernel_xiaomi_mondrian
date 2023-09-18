@@ -18,3 +18,8 @@ clean:
 	@rm -rf *.o* *.order *.symvers *.mod* .*.o.cmd .*.mod.o.cmd .*.ko.cmd .tmp_versions *.ko
 
 endif
+
+
+#Makefile for Xiaomi touch driver
+
+obj-$(CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE) += xiaomi_touch.o
