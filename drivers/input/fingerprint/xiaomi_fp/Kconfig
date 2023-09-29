@@ -8,8 +8,8 @@ config FINGERPRINT_XIAOMI_FP
 	  To compile this driver as a module, choose M here.
 
 config TOUCHSCREEN_XIAOMI_TOUCHFEATURE
-	tristate "Xiaomi touch driver"
-	default m
-	help
-	  Say Y here if you use xiaomi touch driver.
-	  If unsure, say N.
+       tristate "Xiaomi touch driver"
+       default m
+       help
+         Say Y here if you use xiaomi touch driver.
+         If unsure, say N.
